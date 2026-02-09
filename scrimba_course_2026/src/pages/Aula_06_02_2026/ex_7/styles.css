@@ -4,6 +4,8 @@
 
 body {
     margin: 0;
+    background-color: #282D35;
+    color: #ffffff;
 }
 
 .header{
@@ -32,3 +34,45 @@ body {
     font-weight: 700;
 }
 
+/* MAIN */
+
+.title{
+    padding-left: 27px;
+    padding-top: 57px; 
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Inter;
+    padding-bottom: 20px;
+}
+
+.list{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Inter;
+    padding-left: 74px;
+}
+
+.list > li{
+    padding-bottom: 20px;
+}
+
+.list > li::marker{
+    color: #61DAFB;
+}
+
+main {
+    padding: 60px 30px;
+    background-image: url("/images/react-logo-half.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+/*
+    main {
+    padding: 60px 30px;
+    background-image: url(/images/react-logo-half.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+*/
